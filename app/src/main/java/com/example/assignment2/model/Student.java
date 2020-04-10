@@ -1,19 +1,25 @@
 package com.example.assignment2.model;
 
-public class Student {
+import android.graphics.Bitmap;
+
+import java.io.Serializable;
+
+public class Student implements Serializable {
     String idNumber ;
     String firstName;
     String lastName ;
     String email ;
     Double GPA = 0.0 ;
     String gender ;
+    int prfileImage;
 
-    public Student(String idNumber, String firstName, String lastName, String email, String gender) {
+    public Student(String idNumber, String firstName, String lastName, String email, String gender,int imageProfile) {
         this.idNumber = idNumber;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.gender = gender;
+        this.prfileImage = imageProfile;
     }
 
     public String getIdNumber() {
@@ -62,5 +68,13 @@ public class Student {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public int getPrfileImage() {
+        return prfileImage;
+    }
+
+    public void setPrfileImage(int prfileImage) {
+        this.prfileImage = prfileImage;
     }
 }
