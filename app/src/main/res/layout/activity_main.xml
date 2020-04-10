@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,8 +16,18 @@
             android:background="#b0b0b0"
             android:layout_margin="20dp"
             android:onClick="navStudent"
-            android:text="Students"
-            android:textSize="12dp" />
+            android:text="@string/students"
+            android:textSize="12pt" />
+
+    <Button
+        android:id="@+id/BnavCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b0b0b0"
+        android:layout_margin="20dp"
+        android:onClick="navCourse"
+        android:text="@string/courses"
+        android:textSize="12pt" />
 
         <Button
             android:id="@+id/BnavTeacher"
@@ -28,18 +36,10 @@
             android:background="#b0b0b0"
             android:layout_margin="20dp"
             android:onClick="navTeacher"
-            android:text="Teachers"
-            android:textSize="12dp" />
+            android:text="@string/teachers"
+            android:textSize="12pt" />
 
-        <Button
-            android:id="@+id/BnavCourse"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#b0b0b0"
-            android:layout_margin="20dp"
-            android:onClick="navCourse"
-            android:text="Courses"
-            android:textSize="12dp" />
+
 
 
 

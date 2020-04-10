@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ASSIGNMENT2</string>
+    <string name="course_information">Course Information</string>
+    <string name="course_code">Course Code:</string>
+    <string name="course_name">Course Name:</string>
+    <string name="prerequisite">Prerequisite:</string>
+    <string name="students_capacity">Students Capacity:</string>
+    <string name="enrolled_students">Enrolled Students:</string>
+    <string name="students">Students</string>
+    <string name="courses">Courses</string>
+    <string name="teachers">Teachers</string>
 </resources>

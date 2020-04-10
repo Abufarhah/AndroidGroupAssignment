@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void navCourse(View view) {
-        Intent student = new Intent(MainActivity.this,StudentList.class);
+        Intent student = new Intent(MainActivity.this,CourseList.class);
         startActivity(student);
     }
 

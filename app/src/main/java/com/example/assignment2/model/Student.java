@@ -5,12 +5,12 @@ import android.graphics.Bitmap;
 import java.io.Serializable;
 
 public class Student implements Serializable {
-    String idNumber ;
+    String idNumber;
     String firstName;
-    String lastName ;
-    String email ;
-    Double GPA = 0.0 ;
-    String gender ;
+    String lastName;
+    String email;
+    Double GPA = 0.0;
+    String gender;
     int prfileImage;
 
     public Student(String idNumber, String firstName, String lastName, String email, String gender,int imageProfile) {

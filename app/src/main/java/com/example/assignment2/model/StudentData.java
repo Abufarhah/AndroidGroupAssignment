@@ -19,8 +19,8 @@ public class StudentData   {
         students = new ArrayList<Student>();
 
         students.add(new Student("1160695","Amjad","Moqade","amjadmoqade98@gmail.com","male",   R.drawable.id1160695));
-        students.add(new Student("1162323","Layth","Abofarha","lathabofarha@gmail.com","male",R.drawable.id1162323));
-        students.add(new Student("1161042","Mohammad","abdALhamid","mohammad1998@gmail.com","male",R.drawable.id1161042));
+        students.add(new Student("1162636","Layth","Abofarha","laythabufarhah@gmail.com","male",R.drawable.id1162636));
+        students.add(new Student("1161042","Mohammad","Dar Ahmad","mohammad1998@gmail.com","male",R.drawable.id1161042));
         }
 
         public ArrayList<Student> getStudent (){
