@@ -1,12 +1,15 @@
 package com.example.assignment2.model;
 
 
-public class Course {
+import java.io.Serializable;
+
+public class Course implements Serializable {
     private String courseCode;
     private String courseName;
     private String prerequisite;
     private int numOfEnrolledStudents;
     private int maxNum;
+
 
     public Course() {
     }
