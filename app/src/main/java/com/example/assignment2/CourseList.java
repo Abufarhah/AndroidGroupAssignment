@@ -20,6 +20,7 @@ public class CourseList extends AppCompatActivity implements Serializable {
     CourseData courseData;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
