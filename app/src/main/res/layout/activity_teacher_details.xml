@@ -1,9 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TeacherDetails">
+    tools:context=".TeacherDetails"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/titleTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teacher Information"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTeacher"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="Teacher Id : " />
+
+    <TextView
+        android:id="@+id/tFName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name: "
+        android:layout_below="@id/tId"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/tFName"
+        android:text="Last Name : " />
+
+    <TextView
+        android:id="@+id/tGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tLName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="Gender : " />
+
+    <TextView
+        android:id="@+id/tEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tGender"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="Email : " />
+
+    <TextView
+        android:id="@+id/tEducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tEmail"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Education: "
+
+        />
+
+
+
+    <ImageView
+
+        android:id="@+id/tImage"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tEducation"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

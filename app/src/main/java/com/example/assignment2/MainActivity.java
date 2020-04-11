@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void navTeacher(View view) {
-        Intent student = new Intent(MainActivity.this,StudentList.class);
-        startActivity(student);
+        Intent teacher = new Intent(MainActivity.this,TeacherList.class);
+        startActivity(teacher);
     }
 
     public void navCourse(View view) {
-        Intent student = new Intent(MainActivity.this,CourseList.class);
-        startActivity(student);
+        Intent course = new Intent(MainActivity.this,CourseList.class);
+        startActivity(course);
     }
 
 
