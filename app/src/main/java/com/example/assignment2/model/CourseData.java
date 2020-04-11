@@ -12,6 +12,10 @@ public class CourseData {
         courses.add(new Course("COMP432","Computer Security","COMP311",43,45));
     }
 
+    public CourseData(ArrayList<Course> courses) {
+        this.courses=courses;
+    }
+
     public ArrayList<Course> getCourses() {
         return courses;
     }
