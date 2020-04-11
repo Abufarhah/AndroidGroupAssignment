@@ -4,6 +4,7 @@ package com.example.assignment2.model;
 import java.io.Serializable;
 
 public class Course implements Serializable {
+    //layth
     private String courseCode;
     private String courseName;
     private String prerequisite;
