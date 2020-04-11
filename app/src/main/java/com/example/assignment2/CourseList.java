@@ -42,7 +42,7 @@ public class CourseList extends AppCompatActivity implements Serializable {
             courseData=new CourseData();
         }
 
-        configureListView();
+        populateListView();
     }
 
     @Override
@@ -51,7 +51,7 @@ public class CourseList extends AppCompatActivity implements Serializable {
         saveData();
     }
 
-    private void configureListView() {
+    private void populateListView() {
 
         listCourse=findViewById(R.id.listCourse);
         ArrayAdapter arrayAdapter = new ArrayAdapter(this,R.layout.support_simple_spinner_dropdown_item, courseData.getCoursesNames());

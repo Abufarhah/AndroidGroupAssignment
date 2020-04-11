@@ -30,14 +30,10 @@ public class CourseDetails extends AppCompatActivity {
 
         Intent intent =getIntent() ;
         Course course = (Course)intent.getSerializableExtra("Course");
-        Log.d("test",course.toString());
         courseCode.setText(course.getCourseCode());
         courseName.setText(course.getCourseName());
         prerequisite.setText(course.getPrerequisite());
         studentsCapacity.setText(course.getMaxNum()+"");
         enrolledStudents.setText(course.getNumOfEnrolledStudents()+"");
-
-
-
     }
 }
