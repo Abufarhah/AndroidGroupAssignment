@@ -23,7 +23,6 @@ public class StudentDetails extends AppCompatActivity {
     ImageView profileImage;
     Student student ;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
