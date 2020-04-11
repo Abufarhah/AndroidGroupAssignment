@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -38,7 +39,7 @@ public class StudentDetails extends AppCompatActivity {
 
         Intent intent =getIntent() ;
         Student student = (Student)intent.getSerializableExtra("Student");
-
+        Log.d("test",student.getPrfileImage()+"");
         id.setText(id.getText() + student.getIdNumber());
         fName.setText(fName.getText() + student.getFirstName());
         lName.setText(lName.getText() + student.getLastName());
